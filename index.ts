@@ -8,7 +8,4 @@ app.get("/", async (c) => {
   return c.text(result[0].greeting);
 });
 
-Bun.serve({
-  fetch: app.fetch,
-  port: 3000,
-});
+export default app;
