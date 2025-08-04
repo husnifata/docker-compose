@@ -1,0 +1,11 @@
+{
+  "name": "bun-hono-app",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "bun"
+  },
+  "dependencies": {
+    "hono": "^4.8.12",
+    "postgres": "^3.4.7"
+  }
+}
